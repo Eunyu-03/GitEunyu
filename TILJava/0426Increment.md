@@ -14,7 +14,7 @@
 ```java
 package pro0426;
 
-public class plus {
+public class Increment {
 
 	public static void main(String[] args) {
 		int num1=20, num2;
