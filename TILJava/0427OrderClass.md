@@ -11,31 +11,33 @@
 ## 만들어 본 코드 - class의 구현 순서
 
 ```java
-package pro0426;
+package pro0427;
 
-public class Plus {
+class Window{
+	Window(int marker){
+		System.out.println("Window("+marker+")");
+	}
+}
 
+class House{
+	Window w1=new Window(1);
+	House(){
+		System.out.println("House()");
+		w3=new Window(3);
+	}
+	Window w2=new Window(2);
+	void f() {
+		System.out.println("f()");
+	}
+	
+	Window w3=new Window(30);
+}
+public class Orderclass {
 	public static void main(String[] args) {
-		int num1=20, num2;
-		
-		num2=num1++;
-		System.out.printf("%d \n", num2);
-		
-		num2=++num1;
-		System.out.printf("%d \n", num2);
-		
-		for(int i=0; i<=10; i++) {
-			int i1=i++;
-			System.out.println(i1);//0~10의 짝수 출력(println 이후 ++)
-		}
-		
-		for(int i=0; i<=10; ++i) {
-			int i2=++i;
-			System.out.println(i2);//1~11의 홀수 출력(++하고 println)
-		}
-
-
+		House h=new House();
+		h.f();
 	}
 
 }
+
 ```
