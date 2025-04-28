@@ -2,4 +2,4 @@
 
 ## Java
 
-[Java TIL(2024-04-19~)](./TILJava)
+[Java TIL](./TILJava)
