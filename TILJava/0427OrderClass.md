@@ -41,6 +41,14 @@ public class Orderclass {
 
 ```
 
+결과:
+Window(1)
+Window(2)
+Window(30)
+House()
+Window(3)
+f()
+
 ## 만들어 본 코드 - class 구현 순서2
 
 ```java
@@ -102,3 +110,23 @@ public class OrderClass2 {
 }
 ```
 
+결과:
+Bowl(1)
+Bowl(2)
+Table()
+f1(1)
+Bowl(4)
+Bowl(5)
+Bowl(3)
+Cupboard()
+f1(2)
+새로운 클래스 Cupboard() 1
+Bowl(3)
+Cupboard()
+f1(2)
+새로운 클래스 Cupboard() 2
+Bowl(3)
+Cupboard()
+f1(2)
+f2(1)
+f3(1)
