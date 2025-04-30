@@ -78,6 +78,8 @@ console.log(Arr[1]);
 console.log(Arr.length);
 ```
 
+## 만들어 본 코드 - JSON
+
 ```Javascript
 const user={};
 user.name='Hong Gil Dong';
