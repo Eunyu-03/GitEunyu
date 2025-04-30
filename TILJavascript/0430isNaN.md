@@ -22,7 +22,7 @@ console.log('isNaN: ', isNaN2);
 console.log('isNaN: ', isNaN3);
 ```
 
---
+---
 
 ## 만들어 본 코드 - 연산자
 
@@ -45,7 +45,12 @@ console.log(number2, '\n');
 
 TF=number1<number2;
 console.log(TF);
-TF=numbe드 - 배열
+TF=numbe
+```
+
+---
+
+## 만들어 본 코드 - 배열
 
 ```Javascript
 let a=new Array(1, 2, 3);
