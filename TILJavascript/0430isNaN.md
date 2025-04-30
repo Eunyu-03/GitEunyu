@@ -22,8 +22,6 @@ console.log('isNaN: ', isNaN2);
 console.log('isNaN: ', isNaN3);
 ```
 
----
-
 ## 만들어 본 코드 - 연산자
 
 ```Javascript
@@ -47,8 +45,6 @@ TF=number1<number2;
 console.log(TF);
 TF=numbe
 ```
-
----
 
 ## 만들어 본 코드 - 배열
 
