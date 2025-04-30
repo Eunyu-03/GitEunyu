@@ -3,12 +3,14 @@
 - isNaN 메서드 이해
 - 산술, 대입, 비교, 논리, 삼항연산자 학습
 - 배열과 길이
+- JSON('키워드: 값'을 가지는 데이터 형식)
 
 ## 생각
 
-- isNaN은 변수가 정수나 실수일 때 false가 나오니 헷갈리지 않도록 주의.
+- isNaN은 변수가 정수나 실수일 때 false가 나오니 반대로 인식하지 않도록 주의.
 - and(&&)와 or(||) 개념을 정확히 기억할 것.
 - 배열을 추가할 수 있는 변수도 const로 지정해도 되는 게 의문이다.
+- JSON으로 변수를 선언할 땐 중괄호, 헷갈리지 않도록 해야겠다.
 
 ## 만들어 본 코드 - isNaN
 
@@ -74,4 +76,19 @@ console.log(Arr.length);
 Arr.push("첫째", "둘째", "셋째");
 console.log(Arr[1]);
 console.log(Arr.length);
+```
+
+```Javascript
+const user={};
+user.name='Hong Gil Dong';
+user.age=20;
+user.addr="Seoul";
+console.log(user);
+
+const user2={
+    name: 'Go Gil Dong',
+    age: 22,
+    addr:"Busan"
+};
+console.log(user2);
 ```
