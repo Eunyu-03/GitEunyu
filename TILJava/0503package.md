@@ -1,12 +1,12 @@
 ## 2025-05-03
 
-- package의 이해
+- package 불러오기
 - ㅇ
 
 ## 생각
 
 - 라이브러리, 폴더라는 용어를 대입하니 이해하기 쉬웠다.
-- ㅇ
+- public, protected, private, default의 차이를 잘 기억해야겠다.
 
 ## 만들어 본 코드 - package1
 
