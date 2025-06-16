@@ -126,3 +126,30 @@ if문: 조건식에 비교 연산자를 사용하거나 여러 개의 조건식�
 switch문: 하나의 변수에 여러 경우의 값이 담길 수 있고, 각 값이 같은지 비교할 때 사용
 
 2. 반복문
+
+▶ 반복문
+▷for문
+int i=0;  i<10;   i+1
+for(초기식; 조건식; 증감식){
+	실행할 문장;
+}
+
+- 만들어 본 코드
+```java
+package controlStatement;
+
+public class ForTest {
+
+	public static void main(String[] args) {
+//		for(int i=0; i<10; i=i+1) {
+//			System.out.println("정은유");
+//		}
+		for(int i=10;i>0;i--) {
+			System.out.println(11-i+". 정은유");
+		}
+	}
+}
+```
+
+▷while문
+▷do while문
