@@ -172,10 +172,10 @@ do{
  
 }while(조건식);
 
-※ for문, while문, do/~while문 활용 예시
+※ for문, while문, do~while문 활용 예시
 	for문: 몇 번 반복할지 알 때
 	while문: 몇 번 반복할지 모를 때
-	do/~while문: 무조건 처음 한 번은 실행해야 할 때
+	do while문: 무조건 처음 한 번은 실행해야 할 때
 
 기타 제어문
 
