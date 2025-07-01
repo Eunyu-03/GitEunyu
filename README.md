@@ -4,6 +4,3 @@
 
 [Java TIL](./TILJava)
 
-## Javascript
-
-[Javascript TIL](./TILJavascript)
